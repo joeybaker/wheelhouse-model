@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Client Test</title>
+  <link rel="stylesheet" href="css/mocha.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+  <!-- Required for browser reporter -->
+  <div id="mocha"></div>
+
+  <!--
+    IMPORTANT
+    If you do not want to set the `run` option to `true` for some reason
+    and are not using AMD, you must include the bridge.js file
+    in the `phantomjs` folder after you include `mocha.js`
+  -->
+
+  <script src="/js/mocha.js"></script>
+  <script src="/js/bridge.js"></script>
+  <script src="/js/chai.js"></script>
+  <script>
+    var expect = chai.expect
+    mocha.setup('bdd') // This will be overridden by mocha-helper if you run with grunt
+  </script>
+  <!-- Include anything you want to test -->
+  <script src="/js/main.js"></script>
+  <script src="/js/test.js"></script>
+
+  <!-- run mocha -->
+  <script>
+    mocha
+      .globals(['collection']) // acceptable globals
+      .run()
+  </script>
+</body>
+</html>

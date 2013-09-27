@@ -1,0 +1,25 @@
+{
+  "name": "wheelhouse-model",
+  "version": "0.0.0",
+  "authors": [
+    "Joey Baker <joey@byjoeybaker.com>"
+  ],
+  "description": "Backbone models for the client and the server.",
+  "main": "lib/client.js",
+  "keywords": [
+    "backbone",
+    "wheelhouse",
+    "model"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}

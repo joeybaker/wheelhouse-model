@@ -1,0 +1,51 @@
+{
+  "name": "wheelhouse-model",
+  "version": "0.0.0",
+  "description": "A wheelhouse library to prevent duplicate saves from client and server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joeybaker/wheelhouse-model.git"
+  },
+  "keywords": [
+    "flatiron",
+    "backbone",
+    "connect",
+    "wheelhouse",
+    "model"
+  ],
+  "author": "Joey Baker",
+  "license": "BSD",
+  "dependencies": {
+    "lodash": "~2.0",
+    "backbone": "~1.0"
+  },
+  "devDependencies": {
+    "flatiron": "~0.3",
+    "union": "~0.3",
+    "grunt": "~0.4.1",
+    "grunt-bumpx": "~0.1",
+    "grunt-notify": "~0.2",
+    "grunt-contrib-jshint": "~0.6",
+    "chai": "~1.7",
+    "mocha": "~1.13",
+    "grunt-simple-mocha": "~0.4",
+    "grunt-shell": "~0.3",
+    "browserify": "~2.31.0",
+    "wheelhouse-resource": "~0.2.1",
+    "wheelhouse-couch": "~0.3.3",
+    "grunt-mocha": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-connect": "~0.5.0",
+    "debowerify": "~0.1.8",
+    "deamdify": "~0.1.1",
+    "bower-resolve": "0.0.3"
+  },
+  "peerDependencies": {
+    "flatiron": "~0.3",
+    "backbone": "~1.0"
+  }
+}
