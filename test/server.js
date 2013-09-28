@@ -18,7 +18,7 @@ describe('wheelhouse-model', function(){
         , {value: 'add'}
       ]
     , collection = new Collection({})
-    , url = 'http://localhost:' + port + '/'
+    // , url = 'http://localhost:' + port + '/'
 
   before(function(done){
     app.use(flatiron.plugins.http)
