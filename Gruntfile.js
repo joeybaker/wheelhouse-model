@@ -163,8 +163,9 @@ module.exports = function(grunt){
       , collection = new Collection({})
       , done = this.async()
 
+    app.config.set('log:console', {prettyPrint: true, colorize: true, handleExceptions: true})
     app.use(flatiron.plugins.http)
-    app.use(flatiron.plugins.log)
+    // app.use(flatiron.plugins.log)
     app.router.configure({
       strict: false
     })
