@@ -1,6 +1,6 @@
 'use strict';
 
-var wheelhouseModel = require('../../lib/client.js')
+var wheelhouseModel = require('../../')
 
 module.exports = wheelhouseModel.extend({
 

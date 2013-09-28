@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A wheelhouse library to prevent duplicate saves from client and server",
   "main": "index.js",
+  "browser": "./lib/client.js",
   "scripts": {
     "test": "grunt test"
   },
